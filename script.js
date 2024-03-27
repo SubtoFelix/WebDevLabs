@@ -108,6 +108,7 @@ function validate() {
     }
 }
 
+/*
 // Initialize and add the map
 
 let map;
@@ -133,15 +134,13 @@ async function initMap() {
     title: "CMU",
     });
 }
+*/
 
 /* Run only for specific page */
 var L = window.location.href;
 console.log(L);
 if (L.includes("index.html")) {
     greetingFunc();
-}
-else if (L.includes("fun.html")) {
-    initMap();
 }
 
 function activeNav() {
